@@ -309,15 +309,19 @@
                         <input type="tel" id="user_phone" name="phone" placeholder="097214063 2" autocomplete="tel" required>
                     </div>
 
-                    <div>
-                        <input type="checkbox" id="discount_option" name="discount" value="yes">
-                        <label for="discount_option">Тест-день! Получить скидку -30%?</label>
-                    </div>
+                    <fieldset>
+                        <legend>Дополнительные опции</legend>
 
-                    <div>
-                        <input type="checkbox" id="agreement_option" name="agreement" value="accepted" required>
-                        <label for="agreement_option">Согласен с условиями сотрудничества</label>
-                    </div>
+                        <div>
+                            <input type="checkbox" id="discount_option" name="discount" value="yes">
+                            <label for="discount_option">Тест-день! Получить скидку -30%?</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="agreement_option" name="agreement" value="accepted" required>
+                            <label for="agreement_option">Согласен с условиями сотрудничества</label>
+                        </div>
+                    </fieldset>
 
                     <button type="submit" name="order_type" value="phone">Заказ по телефону</button>
                     <span>или</span>
