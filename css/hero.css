@@ -1,0 +1,48 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-l, 32px);
+  min-height: 560px;
+}
+
+.hero__content {
+  max-width: 480px;
+}
+
+.hero__title {
+  margin: 0 0 var(--space-m, 16px);
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 0.025em;
+}
+
+.hero__text {
+  margin: 0 0 var(--space-l, 32px);
+  font-size: 20px;
+  line-height: 1.34;
+}
+
+.hero__order {
+  display: flex;
+  align-items: center;
+  gap: var(--space-l, 32px);
+}
+
+.hero__price {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.34;
+}
+
+.hero__price-value {
+  display: block;
+  font-size: 35px;
+  line-height: 1;
+  color: var(--color-accent, #64d370);
+}
+
+.hero__image {
+  flex-shrink: 1;
+  max-width: 50%;
+}

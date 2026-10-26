@@ -14,19 +14,21 @@
             <a class="header__logo" href="index.html">
                 <img src="assets/images/logo.png" alt="Gastro Chef">
             </a>
-            <nav class="header__nav">
-                <ul class="header__list">
-                    <li class="header__item"><a class="header__link" href="programs.html">Программы питания</a></li>
-                    <li class="header__item"><a class="header__link" href="lunches.html">Бизнес-ланчи</a></li>
-                    <li class="header__item"><a class="header__link" href="shop.html">Gastro Shop</a></li>
-                    <li class="header__item"><a class="header__link" href="about.html">О нас</a></li>
-                    <li class="header__item"><a class="header__link" href="blog.html">Блог</a></li>
-                </ul>
-            </nav>
-            <div class="header__lang">
-                <a class="header__lang-link header__lang-link--active" href="ru">RU</a>
-                <a class="header__lang-link" href="ua">UA</a>
-                <a class="header__lang-link" href="en">EN</a>
+            <div class="header__center">
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item"><a class="header__link" href="programs.html">Программы питания</a></li>
+                        <li class="header__item"><a class="header__link" href="lunches.html">Бизнес-ланчи</a></li>
+                        <li class="header__item"><a class="header__link header__link--active" href="shop.html">Gastro Shop</a></li>
+                        <li class="header__item"><a class="header__link" href="about.html">О нас</a></li>
+                        <li class="header__item"><a class="header__link" href="blog.html">Блог</a></li>
+                    </ul>
+                </nav>
+                <div class="header__lang">
+                    <a class="header__lang-link header__lang-link--active" href="ru">RU</a>
+                    <a class="header__lang-link" href="ua">UA</a>
+                    <a class="header__lang-link" href="en">EN</a>
+                </div>
             </div>
             <a class="header__phone" href="tel:+380689494919">+38 (068) 949-49-19</a>
     </div>
@@ -71,8 +73,10 @@
             <article class="hero__content">
                 <h1 class="hero__title">Detox программа – вкусное очищение организма</h1>
                 <p class="hero__text">8 бутылочек натуральных смузи и фрешей.</p>
-                <a href="#order" class="btn">Заказать</a>
-                <p class="hero__price">Пробный день всего <strong>427 грн</strong></p>
+                <div class="hero__order">
+                    <a href="#order" class="btn">Заказать</a>
+                    <p class="hero__price">Пробный день всего <strong class="hero__price-value">427 грн</strong></p>
+                </div>
                 <img class="hero__image" src="assets/images/detox-banner.png" alt="Бутылочки смузи Detox и авокадо">
             </article>
         </section>
@@ -284,12 +288,12 @@
             <h2 class="gallery__title">Фото блюд</h2>
             <div class="gallery__viewport">
                 <ul class="gallery__list">
-                    <li class="gallery__item"><img class="gallery__image" src="assets/images/dish/dish1.jpg" alt="Контейнеры с готовой едой Gastro Chef"></li>
-                    <li class="gallery__item"><img class="gallery__image" src="assets/images/dish/dish2.jpg" alt="Салат цезарь"></li>
-                    <li class="gallery__item"><img class="gallery__image" src="assets/images/dish/dish3.jpg" alt="Полезные смузи, авокадо и с ризотто с белыми грибами"></li>
-                    <li class="gallery__item"><img class="gallery__image" src="assets/images/dish/dish4.jpg" alt="Запеченный лосось с помидорами черри и брокколи"></li>
-                    <li class="gallery__item"><img class="gallery__image" src="assets/images/dish/dish5.jpg" alt="Куриное филе с зеленью"></li>
-                    <li class="gallery__item"><img class="gallery__image" src="assets/images/dish/dish6.jpg" alt="Салат с помидорами черри и сыром фета"></li>
+                    <li class="gallery__item"><img class="gallery__image" src="assets/images/dish/dish1.jpg" width="380" height="570" alt="Контейнеры с готовой едой Gastro Chef"></li>
+                    <li class="gallery__item"><img class="gallery__image" src="assets/images/dish/dish2.jpg" width="380" height="570" alt="Салат цезарь"></li>
+                    <li class="gallery__item"><img class="gallery__image" src="assets/images/dish/dish3.jpg" width="380" height="570" alt="Полезные смузи, авокадо и с ризотто с белыми грибами"></li>
+                    <li class="gallery__item"><img class="gallery__image" src="assets/images/dish/dish4.jpg" width="380" height="570" alt="Запеченный лосось с помидорами черри и брокколи"></li>
+                    <li class="gallery__item"><img class="gallery__image" src="assets/images/dish/dish5.jpg" width="380" height="570" alt="Куриное филе с зеленью"></li>
+                    <li class="gallery__item"><img class="gallery__image" src="assets/images/dish/dish6.jpg" width="380" height="570" alt="Салат с помидорами черри и сыром фета"></li>
                 </ul>
             </div>
         </section>
