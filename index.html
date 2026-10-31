@@ -163,30 +163,31 @@
             <section class="programs__panel">
                 <h2 class="visually-hidden">Программы питания</h2>
                 <ul class="programs__list">
-                    <li class="programs__item"><button class="programs__option">EXPRESS FIT <span>800 ккал</span></button></li>
-                    <li class="programs__item"><button class="programs__option">SLIM <span>1000 ккал</span></button></li>
-                    <li class="programs__item"><button class="programs__option programs__option--active">FITNESS <span>1300 ккал</span></button></li>
-                    <li class="programs__item"><button class="programs__option">BALANCE <span>1600 ккал</span></button></li>
-                    <li class="programs__item"><button class="programs__option">BALANCE + <span>1800 ккал</span></button></li>
-                    <li class="programs__item"><button class="programs__option">STRONG <span>2000 ккал</span></button></li>
-                    <li class="programs__item"><button class="programs__option">MAXI FIT <span>2400 ккал</span></button></li>
+                    <li class="programs__item"><button class="programs__option">EXPRESS FIT <span class="programs__kcal">800 ккал</span></button></li>
+                    <li class="programs__item"><button class="programs__option">SLIM <span class="programs__kcal">1000 ккал</span></button></li>
+                    <li class="programs__item"><button class="programs__option programs__option--active">FITNESS <span class="programs__kcal">1300 ккал</span></button></li>
+                    <li class="programs__item"><button class="programs__option">BALANCE <span class="programs__kcal">1600 ккал</span></button></li>
+                    <li class="programs__item"><button class="programs__option">BALANCE + <span class="programs__kcal">1800 ккал</span></button></li>
+                    <li class="programs__item"><button class="programs__option">STRONG <span class="programs__kcal">2000 ккал</span></button></li>
+                    <li class="programs__item"><button class="programs__option">MAXI FIT <span class="programs__kcal">2400 ккал</span></button></li>
                 </ul>
                 <div class="programs__details">
-                    <div class="program-card">
-                        <h3 class="program-card__title">Fitness</h3>
-                        <h4 class="program-card__calories">1300 ккал</h4>
-                        <p class="program-card__text">Программа здорового питания Express Fit. Идеальна для: похудения в кратчайшие сроки, повышения энергии и сил, снижения веса при сидячем образе жизни. </p>
+                    <div class="programs__aside">
+                        <div class="program-card">
+                            <h3 class="program-card__title">Fitness</h3>
+                            <h4 class="program-card__calories">1300 ккал</h4>
+                            <p class="program-card__text">Программа здорового питания Express Fit. Идеальна для: похудения в кратчайшие сроки, повышения энергии и сил, снижения веса при сидячем образе жизни. </p>
+                        </div>
+                        <ul class="price-list">
+                            <li class="price-list__item">Тестовый день <del class="price-list__old">510 грн</del> <span class="price-list__new">357 грн</span></li>
+                            <li class="price-list__item">1 день <span>510 грн</span></li>
+                            <li class="price-list__item">от 7 дней <del class="price-list__old">510 грн</del> <span class="price-list__new">490 грн</span></li>
+                            <li class="price-list__item">от 14 дней <del class="price-list__old">510 грн</del> <span class="price-list__new">470 грн</span></li>
+                            <li class="price-list__item">от 30 дней <del class="price-list__old">510 грн</del> <span class="price-list__new">445 грн</span></li>
+                            <li class="price-list__item">Завтрак и ужин <del class="price-list__old">- 15%</del> <span class="price-list__new">433 грн</span></li>
+                        </ul>
+                        <a href="#order" class="btn">Заказать</a>
                     </div>
-                    <ul class="price-list">
-                        <li class="price-list__item">Тестовый день <del class="price-list__old">510 грн</del> <span class="price-list__new">357 грн</span></li>
-                        <li class="price-list__item">1 день <span>510 грн</span></li>
-                        <li class="price-list__item">от 7 дней <del class="price-list__old">510 грн</del> <span class="price-list__new">490 грн</span></li>
-                        <li class="price-list__item">от 14 дней <del class="price-list__old">510 грн</del> <span class="price-list__new">470 грн</span></li>
-                        <li class="price-list__item">от 30 дней <del class="price-list__old">510 грн</del> <span class="price-list__new">445 грн</span></li>
-                        <li class="price-list__item">Завтрак и ужин <del class="price-list__old">- 15%</del> <span class="price-list__new">433 грн</span></li>
-                    </ul>
-                    <a href="#order" class="btn">Заказать</a>
-
                     <div class="programs__menu">
                          <ul class="week-tabs">
                             <li class="week-tabs__item"><button class="week-tabs__button week-tabs__button--active" type="button">ПН</button></li>
@@ -328,9 +329,9 @@
                         </div>
                     </fieldset>
 
-                    <button class="btn btn--outline" type="submit" name="order_type" value="phone">Заказ по телефону</button>
+                    <button class="btn btn--outline form__button" type="submit" name="order_type" value="phone">Заказ по телефону</button>
                     <span class="form__or">или</span>
-                    <button class="btn" type="submit" name="order_type" value="online">Онлайн заказ</button>
+                    <button class="btn form__button" type="submit" name="order_type" value="online">Онлайн заказ</button>
 
                 </form>
 
