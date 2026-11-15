@@ -1,7 +1,9 @@
 .price-list {
   padding: 0 var(--space-m, 16px);
 }
-
+.price-list__label {
+  flex: 1;
+}
 .price-list__item {
   display: flex;
   justify-content: space-between;
@@ -12,5 +14,13 @@
 }
 
 .price-list__old {
+  width: 60px;
+  text-align: right;
   text-decoration: line-through;
+}
+.price-list__old--plain {
+  text-decoration: none;
+}
+.price-list__new {
+  margin-left: 28px;
 }
