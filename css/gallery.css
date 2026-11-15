@@ -9,13 +9,16 @@
 }
 
 .gallery__viewport {
-    overflow-x: auto;
+overflow-x: auto; 
   padding: var(--space-m, 16px) 0;
 }
 
 .gallery__list {
   display: flex;
   gap: 20px;
+  width: max-content;
+  margin: 0 auto;
+  padding: 0 30px;
 }
 
 .gallery__item {
