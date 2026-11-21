@@ -1,5 +1,5 @@
 .footer {
-  margin-top: 80px;
+  margin-top: var(--space--2xl,80px);
   padding: 48px 0;
   background-color: var(--color-surface, #f5faff);
   box-shadow: var(--shadow-m, 0 0 30px rgba(86, 86, 86, 0.25));
@@ -27,7 +27,7 @@
 }
 
 .footer__link:hover {
-  color: var(--color-accent, #64d370);
+  color: var(--color-accent, #247d37);
 }
 
 .footer__logo {
@@ -62,7 +62,7 @@
 .footer__phone {
   font-size: 20px;
   font-weight: 700;
-  color: var(--color-accent, #64d370);
+  color: var(--color-accent, #247d37);
   white-space: nowrap;
 }
 .footer__side .footer__list {

@@ -1,7 +1,7 @@
 .meal-plan {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: var(--space-xl, 50px);
   padding: 30px 50px;
   border-radius: var(--radius-card, 30px);
   background-color: var(--color-surface, #f5faff);

@@ -2,9 +2,9 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 80px;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  gap: var(--space-2xl, 80px);
+  padding-top: var(--space-2xl, 80px);
+  padding-bottom: var(--space-2xl, 80px);
 }
 
 .order {
@@ -43,7 +43,7 @@
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.025em;
-  color: var(--color-accent, #64d370);
+  color: var(--color-accent, #247d37);
 }
 
 .form__input {
@@ -67,7 +67,7 @@
 .form__options {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: var(--space-ml, 20px);
   margin: 0;
   padding: 0 0 0 var(--space-m, 16px);
   border: 0;
@@ -87,7 +87,7 @@
   width: 20px;
   height: 20px;
   margin: 0;
-  accent-color: var(--color-accent, #64d370);
+  accent-color: var(--color-accent, #247d37);
   cursor: pointer;
 }
 
@@ -102,4 +102,5 @@
   font-size: 22px;
   font-weight: 700;
   letter-spacing: 0.025em;
+  text-transform: uppercase;
 }

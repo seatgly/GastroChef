@@ -20,7 +20,7 @@
 }
 
 .hero__accent {
-  color: var(--color-accent, #64d370);
+  color: var(--color-accent, #247d37);
 }
 
 .hero__text {
@@ -45,7 +45,7 @@
   display: block;
   font-size: 35px;
   line-height: 1;
-  color: var(--color-accent, #64d370);
+  color: var(--color-accent, #247d37);
 }
 
 .hero__image {

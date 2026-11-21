@@ -1,11 +1,10 @@
 :root {
   /* Цвета */
-  --color-accent: #64d370;
-  --color-text: #020202;
+  --color-accent: #247d37;
+  --color-focus: #020202;
   --color-bg: #f5faff;
   --color-surface: #f5faff;
   --color-field: #dee6ee;
-  --color-error: #f87676;
 
   /* Шрифты */
   --font-heading: "Comfortaa", Arial, sans-serif;
@@ -23,7 +22,10 @@
   /* Отступы */
   --space-s: 8px;
   --space-m: 16px;
+  --space-ml: 20px;
   --space-l: 32px;
+  --space-xl: 50px;
+  --space-2xl: 80px;
 
   --container-width: 1180px;
 }

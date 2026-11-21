@@ -1,5 +1,5 @@
 .gallery {
-  padding: 80px 0;
+  padding: var(--space-2xl, 80px)  0;
 }
 
 .gallery__title {
@@ -15,7 +15,7 @@ overflow-x: auto;
 
 .gallery__list {
   display: flex;
-  gap: 20px;
+  gap: var(--space-ml, 20px);
   width: max-content;
   margin: 0 auto;
   padding: 0 30px;

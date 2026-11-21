@@ -24,5 +24,5 @@
 
 .week-tabs__button:hover,
 .week-tabs__button--active {
-  color: var(--color-accent, #64d370);
+  color: var(--color-accent, #247d37);
 }

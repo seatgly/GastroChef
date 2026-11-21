@@ -26,7 +26,7 @@
   padding: 12px 32px;
   border: 0;
   border-radius: var(--radius-pill, 190px);
-  background-color: var(--color-accent, #64d370);
+  background-color: var(--color-accent, #247d37);
   box-shadow: var(--shadow-l, 0 0 40px rgba(86, 86, 86, 0.3));
   font-family: var(--font-heading, Arial, sans-serif);
   font-size: 26px;
@@ -42,7 +42,7 @@
 }
 
 .btn--outline {
-  border: 3px solid var(--color-accent, #64d370);
+  border: 3px solid var(--color-accent, #247d37);
   background-color: transparent;
-  color: var(--color-accent, #64d370);
+  color: var(--color-accent, #247d37);
 }

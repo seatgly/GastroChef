@@ -2,10 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  gap: 0 16px;
+  gap: 0 var(--space-m, 16px);
   padding: 30px 40px 30px 50px;
   border-radius: var(--radius-card, 30px);
-  background-color: var(--color-accent, #64d370);
+  background-color: var(--color-accent-, #247d37);
   color: var(--color-bg, #f5faff);
 }
 

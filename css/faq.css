@@ -12,7 +12,7 @@
 .faq__list {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: var(--space-ml, 20px);
 }
 
 .faq__button {
@@ -49,5 +49,5 @@
 
 .faq__button:hover {
   box-shadow: var(--shadow-m, 0 0 30px rgba(86, 86, 86, 0.25));
-  color: var(--color-accent, #64d370);
+  color: var(--color-accent, #247d37);
 }

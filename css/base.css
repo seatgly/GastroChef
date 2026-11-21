@@ -7,7 +7,7 @@
 body {
   margin: 0;
   font-family: var(--font-main, Arial, sans-serif);
-  color: var(--color-text, #222222);
+  color: var(--color-text, #020202);
   background-color: var(--color-bg, #f5faff);
   line-height: 1.4;
 }
@@ -36,6 +36,6 @@ img {
 }
 
 :focus-visible {
-  outline: 3px solid var(--color-accent, #66d36e);
+outline: 3px solid var(--color-focus, #020202);
   outline-offset: 2px;
 }
