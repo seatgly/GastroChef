@@ -1,5 +1,5 @@
 .footer {
-  margin-top: var(--space--2xl,80px);
+  margin-top: var(--space-2xl,80px);
   padding: 48px 0;
   background-color: var(--color-surface, #f5faff);
   box-shadow: var(--shadow-m, 0 0 30px rgba(86, 86, 86, 0.25));
