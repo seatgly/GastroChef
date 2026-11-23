@@ -7,3 +7,5 @@ HTML, CSS, JavaScript, PHP, MySQL.
 Инструкция по запуску будет дополняться по мере разработки проекта.
 ##  ФИО:
 Субботина Екатерина Алексеевна
+## Ссылка на макет
+https://www.figma.com/design/MacGFpmxhOnGZn3o5q3IzL/Gastro-Chef--?node-id=0-1&p=f&t=i7uxfW3uClHgCzeN-0

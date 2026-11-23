@@ -1,0 +1,31 @@
+.program-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 var(--space-m, 16px);
+  padding: 30px 40px 30px 50px;
+  border-radius: var(--radius-card, 30px);
+  background-color: var(--color-accent, #247d37);
+  color: var(--color-bg, #f5faff);
+}
+
+.program-card__title {
+  margin: 0;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.program-card__calories {
+  margin: 0;
+  font-family: var(--font-main, Arial, sans-serif);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.program-card__text {
+  flex: 0 0 100%;
+  margin: var(--space-m, 16px) 0 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.34;
+}

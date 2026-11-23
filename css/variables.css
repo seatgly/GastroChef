@@ -1,0 +1,32 @@
+:root {
+  /* Цвета */
+  --color-accent: #247d37;
+  --color-text: #020202;
+  --color-focus: #020202;
+  --color-bg: #f5faff;
+  --color-surface: #f5faff;
+  --color-field: #dee6ee;
+
+  /* Шрифты */
+  --font-heading: "Comfortaa", Arial, sans-serif;
+  --font-main: "Montserrat", Arial, sans-serif;
+
+  /* Тени */
+  --shadow-s: 0 0 20px rgba(86, 86, 86, 0.2);
+  --shadow-m: 0 0 30px rgba(86, 86, 86, 0.25);
+  --shadow-l: 0 0 40px rgba(86, 86, 86, 0.3);
+
+  /* Скругления */
+  --radius-pill: 190px;
+  --radius-card: 30px;
+
+  /* Отступы */
+  --space-s: 8px;
+  --space-m: 16px;
+  --space-ml: 20px;
+  --space-l: 32px;
+  --space-xl: 50px;
+  --space-2xl: 80px;
+
+  --container-width: 1180px;
+}

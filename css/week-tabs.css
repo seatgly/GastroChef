@@ -1,0 +1,28 @@
+.week-tabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 55px;
+  margin-bottom: 20px;
+  padding: 0 50px;
+  border-radius: var(--radius-card, 30px);
+  background-color: var(--color-surface, #f5faff);
+  box-shadow: var(--shadow-l, 0 0 40px rgba(86, 86, 86, 0.3));
+}
+
+.week-tabs__button {
+  padding: 0;
+  border: 0;
+  background: none;
+  font-family: var(--font-heading, Arial, sans-serif);
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--color-text, #020202);
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.week-tabs__button:hover,
+.week-tabs__button--active {
+  color: var(--color-accent, #247d37);
+}
